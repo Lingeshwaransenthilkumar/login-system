@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fira+Sans:wght@600&family=Lumanosimo&family=Permanent+Marker&family=REM&family=Roboto&family=Ysabeau+SC:wght@600;800;1000&display=swap');
+body{
+    background: #5199E4;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    width: 100vw;
+   }
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+.box{
+    border: transparent;
+    padding: 20px;
+    width: 500px;
+    height: 90px;
+    position: absolute;
+    top: 45%;
+    
+    
+
+}
+.box h1{
+    text-align: center;
+}
+.error{
+    color: red;
+    font: bold;
+    text-align: center;
+    padding: 5px;
+}
+.good{
+    color: green;
+    font: bold;
+    text-align: center;
+    padding: 5px;
+}
